@@ -429,6 +429,7 @@ color: #fff;
 .header__logo{
     width: 250px;
     height: 250px;
+    -webkit-tap-highlight-color: transparent;
 }
 .header__logo-img{
     width: 100%;
