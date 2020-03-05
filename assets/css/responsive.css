@@ -51,7 +51,7 @@
 @media(max-width:739px){
     :root{
         --navbar-height:0px;
-        --header-height:54px;
+        --header-height:55px;
     }
     .hide-mobile{
         display: none;
@@ -99,12 +99,13 @@
     .header__mobile-seach{
         display: block;
     }
-    .footer__heading{
-        text-align: center;
-    }
     .footer__item-link{
         text-align: center;
     }
+    .footer__heading{
+        text-align: center;
+    }
+    
     @keyframes mobile-search {
         from{
             top: 40px;
