@@ -1,9 +1,6 @@
 /* Mobile và tablet */
 @media(max-width:1023px){
-    :root{
-        --navbar-height:0px;
-        --header-height:68px;
-    }
+    
 .hide-tablet-mobile{
     display: none;
 }
@@ -38,6 +35,10 @@
 }
 /* tablet */
 @media(min-width:740px) and (max-width:1023px){
+    :root{
+        --navbar-height:0px;
+        --header-height:68px;
+    }
     .hide-tablet{
         display: none;
     }
@@ -48,6 +49,10 @@
 }
 /* Mobile */
 @media(max-width:739px){
+    :root{
+        --navbar-height:0px;
+        --header-height:54px;
+    }
     .hide-mobile{
         display: none;
     }
@@ -93,6 +98,12 @@
     }
     .header__mobile-seach{
         display: block;
+    }
+    .footer__heading{
+        text-align: center;
+    }
+    .footer__item-link{
+        text-align: center;
     }
     @keyframes mobile-search {
         from{
